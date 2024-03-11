@@ -39,4 +39,4 @@ services:
     volumes:
       - ./scripts:/scripts
     extra_hosts:
-      - "yves.de.spryker.local:192.168.86.141"
+      - "yves.de.spryker.local:192.168.86.144"
