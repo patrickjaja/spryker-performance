@@ -1,5 +1,5 @@
  - docker-compose up -d
- - adjust IP in docker-compose.yml ("yves.de.spryker.local:192.168.86.141") 
+ - add sprykerdeck ip to container /etc/hosts file by adjusting docker-compose.yml ("yves.de.spryker.local:192.168.86.141") 
  - docker compose run --rm -T k6 run -<scripts/script.js --tag testid=spryker.local --env DOMAIN=http://yves.de.spryker.local/en/new
  - ./docker-run.sh scripts/script.js
 
