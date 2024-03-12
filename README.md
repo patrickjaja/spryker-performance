@@ -6,7 +6,7 @@ Grafana:
    - http://localhost:3000
    - admin:admin
    - add datasource: http://influxdb:8086 -> database k6
-   - import dashboard: [10660_rev1.json](10660_rev1.json)
+   - import dashboard: [k6 Load Testing Results-1710271833103.json](k6%20Load%20Testing%20Results-1710271833103.json)
 
 Notes:
  https://github.com/grafana/xk6-output-influxdb#docker-compose
